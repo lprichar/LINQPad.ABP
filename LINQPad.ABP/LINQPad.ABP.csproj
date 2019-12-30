@@ -2,12 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Lee Richardson</Authors>
+    <Company>ee Richardson</Company>
+    <PackageProjectUrl>https://github.com/lprichar/LINQPad.ABP</PackageProjectUrl>
+    <PackageIcon>LinqPad.ABP.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/lprichar/LINQPad.ABP</RepositoryUrl>
+    <Description>Add ASP.Net Boilerplate support to LINQPad Queries</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Abp.AutoMapper" Version="4.9.0" />
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="4.9.0" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LinqPad.ABP.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
